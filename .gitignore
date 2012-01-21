@@ -1,0 +1,5 @@
+*.py[co]
+*~
+.env
+.idea
+settings_local.py
