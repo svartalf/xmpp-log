@@ -3,19 +3,19 @@ Simple ``XMPP`` MUC logger.
 Installation
 ===============
 
-1. Create a virtual environment (preferable way, really!) with a `virtualenv`
+1. Create a virtual environment (preferable way, really!) with a `virtualenv`::
 
     virtualenv .env
 
-2. Install required libraries
+2. Install required libraries::
 
     .env/bin/pip install -r .requirements.txt
 
-3. Create file with a local settings
+3. Create file with a local settings::
 
     touch settings_local.py
 
-4. Copy this template and change it with your settings
+4. Copy this template and change it with your settings::
 
     JID = 'logger-jid@example.org'
     PASSWORD = 'jid-password'
@@ -32,6 +32,6 @@ Installation
         'password': 'database_password',
     }
 
-5. Run it
+5. Run it::
 
     .env/bin/python main.py
